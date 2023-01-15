@@ -1,0 +1,60 @@
+$text1:hsl(228, 72%, 15%);
+$font:2em;
+$bodyColor:aqua;
+$bg-color:#fff;
+body{
+    background-color:$bodyColor ;
+    font-family: monospace;
+}
+
+.app-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.app{
+    width: 300px;
+    border-radius: 2em;
+    background-color: $bg-color;
+    height: 90vh;
+}
+.wrapper{
+    position: relative;
+    left: 3%;
+}
+.qr{
+    position: relative;
+    top: 2em;
+    left: 5%;
+ width: 400px;
+
+}
+div img{
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+.text-1,.text-2{
+    position: relative;
+    top: 2em;
+    left: 10%;
+    width: 80%;
+}
+.text-2{
+    font-size: $font;  
+    text-align: center;
+    color: rgba(143, 143, 151, 0.946);
+}
+.text-1{
+    color: $text1;
+    font-size: $font;
+    text-align: center;
+    margin-bottom: 1.3em;
+    font-weight: bold;
+}
+.attribution{
+    position: relative;
+    
+}
